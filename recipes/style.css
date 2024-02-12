@@ -1,5 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
 h3 {
-    font-size: 30px;
+    font-size: 28px;
+    border: 1px solid rgb(48, 139, 60);
 }
 
 body {
@@ -8,10 +13,25 @@ body {
 
 ul {
     background-color: rgb(230, 245, 163);
+    border: 2px solid black;
 }
 
 .heading {
     background-color: rgb(0, 20, 19);
     color: white;
     font-size: 40px;
+}
+
+h1 {
+    border: 2px solid black;
+    padding: 8px;
+    background-color: rgb(238, 145, 145);
+    text-align: center;
+}
+
+.info {
+    font-size: 16px;
+    margin: 12px;
+    border: 3px solid silver;
+
 }
